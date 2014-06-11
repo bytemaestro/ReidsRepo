@@ -12,3 +12,17 @@ c:\Users\Reid\Documents\Visual Studio 2013\Projects\SCA_ScreeningSite\SCA.Pirate
 c:\Users\Reid\Documents\Visual Studio 2013\Projects\SCA_ScreeningSite\SCA.PiratesScreen.WebAPI\obj\Debug\SCA.PiratesScreen.WebAPI.dll
 c:\Users\Reid\Documents\Visual Studio 2013\Projects\SCA_ScreeningSite\SCA.PiratesScreen.WebAPI\obj\Debug\SCA.PiratesScreen.WebAPI.pdb
 c:\Users\Reid\Documents\Visual Studio 2013\Projects\SCA_ScreeningSite\SCA.PiratesScreen.WebAPI\obj\Debug\SCA.PiratesScreen.WebAPI.csprojResolveAssemblyReference.cache
+C:\Users\Reid\Documents\GitHub\ReidsRepo\SCAScreening\SCA.PiratesScreen.WebAPI\bin\SCA.PiratesScreen.WebAPI.dll.config
+C:\Users\Reid\Documents\GitHub\ReidsRepo\SCAScreening\SCA.PiratesScreen.WebAPI\bin\SCA.PiratesScreen.WebAPI.dll
+C:\Users\Reid\Documents\GitHub\ReidsRepo\SCAScreening\SCA.PiratesScreen.WebAPI\bin\SCA.PiratesScreen.WebAPI.pdb
+C:\Users\Reid\Documents\GitHub\ReidsRepo\SCAScreening\SCA.PiratesScreen.WebAPI\bin\Newtonsoft.Json.dll
+C:\Users\Reid\Documents\GitHub\ReidsRepo\SCAScreening\SCA.PiratesScreen.WebAPI\bin\System.Net.Http.Formatting.dll
+C:\Users\Reid\Documents\GitHub\ReidsRepo\SCAScreening\SCA.PiratesScreen.WebAPI\bin\System.Web.Http.dll
+C:\Users\Reid\Documents\GitHub\ReidsRepo\SCAScreening\SCA.PiratesScreen.WebAPI\bin\System.Web.Http.WebHost.dll
+C:\Users\Reid\Documents\GitHub\ReidsRepo\SCAScreening\SCA.PiratesScreen.WebAPI\bin\Newtonsoft.Json.xml
+C:\Users\Reid\Documents\GitHub\ReidsRepo\SCAScreening\SCA.PiratesScreen.WebAPI\bin\System.Net.Http.Formatting.xml
+C:\Users\Reid\Documents\GitHub\ReidsRepo\SCAScreening\SCA.PiratesScreen.WebAPI\bin\System.Web.Http.xml
+C:\Users\Reid\Documents\GitHub\ReidsRepo\SCAScreening\SCA.PiratesScreen.WebAPI\bin\System.Web.Http.WebHost.xml
+C:\Users\Reid\Documents\GitHub\ReidsRepo\SCAScreening\SCA.PiratesScreen.WebAPI\obj\Debug\SCA.PiratesScreen.WebAPI.csprojResolveAssemblyReference.cache
+C:\Users\Reid\Documents\GitHub\ReidsRepo\SCAScreening\SCA.PiratesScreen.WebAPI\obj\Debug\SCA.PiratesScreen.WebAPI.dll
+C:\Users\Reid\Documents\GitHub\ReidsRepo\SCAScreening\SCA.PiratesScreen.WebAPI\obj\Debug\SCA.PiratesScreen.WebAPI.pdb
