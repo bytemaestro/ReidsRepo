@@ -1,0 +1,25 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>SCA Screening Steps</h2>
+
+@Html.ActionLink(@"Step 1. Call the SCA servers API and get the trunk size.", "Step1", "SCA") 
+<br />
+@Html.ActionLink(@"Step 2. Call Reid's Local WebAPI to get the trunksize.", "Step2", "SCA") 
+<br />
+<br />
+The 2 routes to get the JSON TreasureTrunk object are:
+<br />
+<br />
+
+http://67.184.231.185/WebAPI/api/SCA/ForStep2/ {number of pirates} exp. http://67.184.231.185/WebAPI/api/SCA/ForStep2/3
+<br />
+or
+<br />
+http://67.184.231.185/WebAPI/api/TreasureTrunks/{number of Pirates} exp. http://67.184.231.185/WebAPI/api/TreasureTrunks/4
+
+
+

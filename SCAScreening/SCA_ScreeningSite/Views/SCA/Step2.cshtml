@@ -1,0 +1,95 @@
+﻿
+@{
+    ViewBag.Title = "Step2";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style type="text/css">
+    .modal {
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: black;
+        z-index: 99;
+        opacity: 0.8;
+        filter: alpha(opacity=80);
+        -moz-opacity: 0.8;
+        min-height: 100%;
+        width: 100%;
+    }
+
+    .loading {
+        font-family: Arial;
+        font-size: 10pt;
+        border: 5px solid #67CFF5;
+        width: 200px;
+        height: 100px;
+        display: none;
+        position: fixed;
+        background-color: White;
+        z-index: 999;
+    }
+</style>
+
+
+
+<script type="text/javascript">
+
+    function getTrunkObject() {
+        var numOfPirates = $('#txtNoPirates').val();
+
+        jQuery.support.cors = true;
+
+        if (numOfPirates == '') {
+            alert("Please enter the number of pirates that will be dividing this trunk, mate.");
+            $('#txtNoPirates').focus();
+            return;
+        }
+
+        $("#divResult").html("Contacting Reid's Local WebAPI for an answer, Mate. Please Wait...");
+
+        $.getJSON('http://67.184.231.185/WebAPI/api/SCA/ForStep2/' + numOfPirates)
+              .done(function (data) {
+                  ShowResult(data);
+              })
+              .fail(function (x, y, z) {
+                  alert(x + '\n' + y + '\n' + z);
+              });
+
+    }
+
+    function ShowResult(treasureTrunk) {
+      
+        if (treasureTrunk != null) {
+            $("#divResult").html("Reid's API says: <b>" + treasureTrunk.TotalGoldCoins + "</b> is the smallest amount of gold pieces in the chest, Mate!");
+
+        }
+        else {
+            $("#divResult").html("<b>No Response from Reids WebAPI Dev Server Mate, apologies. Try again later. Thanks! </b>");
+        }
+
+    }
+
+
+</script>
+
+
+
+<h2 style="font-variant:small-caps;"><u>Step 2</u></h2>
+<h4>Call Reid's Local WebAPI and based on a given number of pirates and the way the do their sharing (as stated in step1's description), return the smallest possible trunk size.</h4>
+<br />
+    How many pirates will be plundering this trunk, Mate?
+<br />
+<input id="txtNoPirates" type="text" />
+<button id="btnGetEstimate" onclick="getTrunkObject();">Ok</button>
+
+<br />
+<br />
+
+<div id="divResult">
+
+</div>
+
+<div id="divResult">
+
+</div>

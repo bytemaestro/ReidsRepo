@@ -1,0 +1,14 @@
+c:\Users\Reid\Documents\Visual Studio 2013\Projects\SCA_ScreeningSite\SCA.PiratesScreen.WebAPI\bin\SCA.PiratesScreen.WebAPI.dll.config
+c:\Users\Reid\Documents\Visual Studio 2013\Projects\SCA_ScreeningSite\SCA.PiratesScreen.WebAPI\bin\SCA.PiratesScreen.WebAPI.dll
+c:\Users\Reid\Documents\Visual Studio 2013\Projects\SCA_ScreeningSite\SCA.PiratesScreen.WebAPI\bin\SCA.PiratesScreen.WebAPI.pdb
+c:\Users\Reid\Documents\Visual Studio 2013\Projects\SCA_ScreeningSite\SCA.PiratesScreen.WebAPI\bin\Newtonsoft.Json.dll
+c:\Users\Reid\Documents\Visual Studio 2013\Projects\SCA_ScreeningSite\SCA.PiratesScreen.WebAPI\bin\System.Net.Http.Formatting.dll
+c:\Users\Reid\Documents\Visual Studio 2013\Projects\SCA_ScreeningSite\SCA.PiratesScreen.WebAPI\bin\System.Web.Http.dll
+c:\Users\Reid\Documents\Visual Studio 2013\Projects\SCA_ScreeningSite\SCA.PiratesScreen.WebAPI\bin\System.Web.Http.WebHost.dll
+c:\Users\Reid\Documents\Visual Studio 2013\Projects\SCA_ScreeningSite\SCA.PiratesScreen.WebAPI\bin\Newtonsoft.Json.xml
+c:\Users\Reid\Documents\Visual Studio 2013\Projects\SCA_ScreeningSite\SCA.PiratesScreen.WebAPI\bin\System.Net.Http.Formatting.xml
+c:\Users\Reid\Documents\Visual Studio 2013\Projects\SCA_ScreeningSite\SCA.PiratesScreen.WebAPI\bin\System.Web.Http.xml
+c:\Users\Reid\Documents\Visual Studio 2013\Projects\SCA_ScreeningSite\SCA.PiratesScreen.WebAPI\bin\System.Web.Http.WebHost.xml
+c:\Users\Reid\Documents\Visual Studio 2013\Projects\SCA_ScreeningSite\SCA.PiratesScreen.WebAPI\obj\Debug\SCA.PiratesScreen.WebAPI.dll
+c:\Users\Reid\Documents\Visual Studio 2013\Projects\SCA_ScreeningSite\SCA.PiratesScreen.WebAPI\obj\Debug\SCA.PiratesScreen.WebAPI.pdb
+c:\Users\Reid\Documents\Visual Studio 2013\Projects\SCA_ScreeningSite\SCA.PiratesScreen.WebAPI\obj\Debug\SCA.PiratesScreen.WebAPI.csprojResolveAssemblyReference.cache

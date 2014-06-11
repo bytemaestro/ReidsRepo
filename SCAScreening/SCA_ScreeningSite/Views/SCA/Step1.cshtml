@@ -1,0 +1,100 @@
+﻿
+@{
+    ViewBag.Title = "Step1";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style type="text/css">
+    .modal {
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: black;
+        z-index: 99;
+        opacity: 0.8;
+        filter: alpha(opacity=80);
+        -moz-opacity: 0.8;
+        min-height: 100%;
+        width: 100%;
+    }
+
+    .loading {
+        font-family: Arial;
+        font-size: 10pt;
+        border: 5px solid #67CFF5;
+        width: 200px;
+        height: 100px;
+        display: none;
+        position: fixed;
+        background-color: White;
+        z-index: 999;
+    }
+</style>
+
+
+
+<script type="text/javascript">
+    function getAnswerFromSCA() {
+        jQuery.support.cors = true;
+        var numOfPirates = $('#txtNoPirates').val();
+
+        if (numOfPirates == '')
+        {
+            alert("Please enter the number of pirates, mate.");
+            $('#txtNoPirates').focus();
+            return;
+        }
+
+        $("#divResult").html("Contacting SCA pirates for an answer, Mate. Please Wait...");
+
+        $.ajax({
+            url: 'http://pirate.azurewebsites.net/api/Pirate/' + numOfPirates,
+            type: 'GET',
+            dataType: 'text',
+            success: function (data) {
+                ShowResult(data);
+            },
+            error: function (x, y, z) {
+                alert(x + '\n' + y + '\n' + z);
+            }
+        });
+    }
+
+    function ShowResult(shareOfGold)
+    {
+        if (shareOfGold != null)
+        {
+            $("#divResult").html("SCA says: <b>" + parseInt(shareOfGold) + "</b> is the smallest amount of gold pieces in the chest, Mate!");
+
+        }
+        else
+        {
+            $("#divResult").html("<b>No Response from SCA Mate, sorry. </b>");
+        }
+
+    }
+
+
+</script>
+
+
+
+    <h2 style="font-variant:small-caps;"><u>Step 1</u></h2>
+    <h4>Call the SCA API to get the smallest number of coins that could be in the trunk, based on a given number of pirates, that divide the share as stated in step1's description.</h4>
+    <br />
+
+    How many pirates will be plundering, Mate?
+    <br />
+    <input id="txtNoPirates" type="text" />
+    <button id="btnGetEstimate" onclick="getAnswerFromSCA();">Ok</button>
+
+    <br />
+    <br />
+
+    <div id="divResult">
+
+    </div>
+
+    <div id="divResult">
+
+    </div>
